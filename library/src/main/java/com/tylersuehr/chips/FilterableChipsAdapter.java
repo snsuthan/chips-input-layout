@@ -25,7 +25,7 @@ import android.widget.TextView;
  * @author Tyler Suehr
  * @version 1.0
  */
-class FilterableChipsAdapter
+public class FilterableChipsAdapter
         extends RecyclerView.Adapter<FilterableChipsAdapter.Holder>
         implements Filterable, ChipDataSource.ChangeObserver {
     private final OnFilteredChipClickListener mListener;
